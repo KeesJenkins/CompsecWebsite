@@ -1,10 +1,10 @@
 :root {
-  --bg:          #0d0d0f;
+  --bg:          #000000;
   --surface:     #14141a;
   --surface-2:   #1e1e28;
   --border:      #2a2a38;
-  --accent:      #7c6dfa;
-  --accent-dim:  #5a4dd4;
+  --accent:      #fa6d6d;
+  --accent-dim:  #d44d4d;
   --text:        #e8e8f2;
   --muted:       #7878a0;
   --font:        'Inter', system-ui, -apple-system, sans-serif;

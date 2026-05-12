@@ -8,17 +8,16 @@
     <footer class="footer">
       <div class="container footer__inner">
         <div class="footer__brand">
-          <span class="footer__logo">Computing in Society</span>
-          <p>Exploring the intersection of technology and the world around us.</p>
+          <span class="nav__logo"> Online <span> Censorship</span></span>
+          <p>How citizen movements can be triggered by social media and internet access can influence political change. How and why some governments/leaders censor social platforms and restrict internet access to avoid citizen uprisings and the spread of information. </p>
         </div>
         <nav class="footer__nav" aria-label="Footer navigation">
           <h4>Navigation</h4>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="team.html">Team</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="pages/guidelines.html">Guidelines</a></li>
+            <li><a href="pages/meetings.html">Meetings</a></li>
+            <li><a href="pages/references.html">References</a></li>
           </ul>
         </nav>
       </div>
