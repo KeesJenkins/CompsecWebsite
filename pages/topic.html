@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technology / Topic - Online Censorship</title>
+    <base href="../" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/global.css" />
+</head>
+
+<body>
+
+    <div id="navbar"></div>
+
+    <main>
+
+        <section>
+            <div class="container">
+                <h1>Technology / <span class="accent">Topic</span></h1>
+                <p class="section-sub">
+                    Online censorship sits at the intersection of politics, technology, and human rights, and it is
+                    becoming more relevant, not less. Governments have always tried to control what people can say.
+                    What changed with the internet is the scale of the problem on both sides: more speech, and more
+                    sophisticated tools for suppressing it. This page examines how those suppression tools actually
+                    work, why corporate complicity has made them more effective than they would otherwise be, and
+                    why treating China and North Korea as extreme outliers is a mistake.
+                </p>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>How Censorship Works Technically</h2>
+                </div>
+                <p class="section-sub">
+                    The popular image of online censorship is a government blocking a website. In practice, the
+                    systems involved are considerably more layered. China's Great Firewall, the most thoroughly
+                    documented example, combines several methods at once, each targeting a different point in the
+                    communication chain (Gisonna, 2025). Understanding how they work together matters because it
+                    explains why circumvention is difficult and why no single technical fix is enough.
+                </p>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Filtering and Blocking Methods</h3>
+                        <ul>
+                            <li><strong>Keyword filtering</strong> scans content in real time for prohibited terms
+                                and prevents pages from loading if a match is found</li>
+                            <li><strong>DNS poisoning</strong> intercepts requests for banned domains and either
+                                returns no result or redirects users to an approved page instead</li>
+                            <li><strong>IP address blocking</strong> cuts off access at the network level to specific
+                                servers regardless of what content they host</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Deeper Traffic Inspection</h3>
+                        <ul>
+                            <li><strong>Deep Packet Inspection (DPI)</strong> reads the actual contents of data
+                                packets crossing the network, not merely their destination addresses, allowing
+                                detection of encrypted traffic patterns</li>
+                            <li><strong>TCP reset attacks</strong> terminate active connections without the user
+                                receiving any explanation, making the experience feel like a technical failure
+                                rather than censorship</li>
+                            <li>All companies operating within China are legally required to self-censor their
+                                public content or risk losing market access entirely</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="section-header">
+                    <h2>China's Great Firewall</h2>
+                </div>
+                <p class="section-sub">
+                    China's censorship system began in 1998 as the Golden Shield Project under the Ministry of
+                    Public Security, and it has been refined steadily ever since (Gisonna, 2025). Today it blocks
+                    Facebook, Instagram, YouTube, Twitter, and major international news outlets. Rather than simply
+                    restricting the internet, China has effectively built a parallel one, directing users toward
+                    domestic alternatives that operate under government supervision: WeChat for messaging, Baidu
+                    for search, and Bilibili for video. This distinction matters. China has not failed to control
+                    the internet; it has succeeded in replacing it.
+                </p>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Corporate Complicity</h3>
+                        <p>
+                            One of the more uncomfortable findings in the literature is how readily Western
+                            technology companies have accommodated Chinese censorship requirements. Microsoft
+                            operates a filtered version of Bing within China, and both Amazon and Google
+                            have established compliant local services (Gisonna, 2025). Google did withdraw
+                            in 2010 after refusing to filter search results, and activists gathered outside its
+                            Beijing office to protest, but this was an exception rather than a norm. Baecker
+                            (2019) notes that by 2006, at least 60 people were in Chinese prisons for posting
+                            material the government classified as sensitive. The commercial logic of market
+                            access has, in most cases, outweighed principled objections to state censorship.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>The Tendency to Expand</h3>
+                        <p>
+                            Hong Kong and Macau historically maintained significantly lower levels of internet
+                            censorship than the mainland. Following national security legislation passed in
+                            June 2020, experts warned that this would change (Gisonna, 2025). This pattern
+                            is worth paying attention to. Censorship infrastructure, once built and legally
+                            justified, tends to extend its reach. The technical capacity developed to suppress
+                            one category of content rarely remains limited to that category for long. What
+                            begins as targeted restriction tends over time to become broader control.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>North Korea: Isolation Rather Than Filtering</h2>
+                </div>
+                <p class="section-sub">
+                    Comparing China and North Korea reveals that state control of online information takes
+                    fundamentally different forms depending on a government's starting assumptions. China
+                    filters the global internet while remaining partially connected to it. North Korea, by
+                    contrast, has largely opted out. Deibert et al. (2008) described the country as a virtual
+                    black hole in cyberspace, operating an isolated domestic intranet called Kwangmyong
+                    comprising roughly 30 government-approved websites available only to a small privileged
+                    minority. This is not a less sophisticated approach to censorship; it is a different
+                    approach entirely.
+                </p>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Access as a Privilege, Not a Right</h3>
+                        <p>
+                            Content on Kwangmyong comes from state agencies including the Central Scientific
+                            and Technological Information Agency. Access is not publicly available. Only
+                            government ministries and a handful of approved institutions have the equipment
+                            and authorisation to use the network (Deibert et al., 2008). The few public
+                            intranet cafes that existed in cities like Chungjin charged approximately 20,000
+                            won per month, seven to eight times the average monthly wage. That pricing is
+                            not incidental. It is the censorship mechanism, using economic exclusion to
+                            achieve the same outcome that China achieves through technical filtering.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>Constitutional Rights Without Enforcement</h3>
+                        <p>
+                            Article 67 of the DPRK's Socialist Constitution formally guarantees freedom of
+                            speech and of the press. Deibert et al. (2008) note that no legal mechanism
+                            exists through which citizens could challenge the state's control over online
+                            access. Personal radios and televisions must be modified to receive only government
+                            broadcasts and registered with authorities. Mobile phones were banned nationwide
+                            from May 2004. The North Korean case illustrates a broader point: constitutional
+                            guarantees of free expression mean very little unless there are independent
+                            institutions capable of enforcing them against the state itself.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="section-header">
+                    <h2>A Global Problem, Not an Authoritarian Outlier</h2>
+                </div>
+                <p style="color: var(--muted); font-size: 0.95rem; line-height: 1.7; max-width: 70ch;">
+                    It is tempting to frame online censorship as something authoritarian governments do and
+                    democratic ones do not. The data challenges this. Freedom House (2021) found that approximately
+                    75% of global internet users, around 2.8 billion people, live in countries where someone has
+                    been arrested for content posted online (cited in Dumbrava, 2021). Access Now documented over
+                    180 deliberate internet shutdowns in 2022 alone, used primarily to disrupt protests and
+                    elections. In 2017, Pakistan arrested dozens for social media posts; Turkey banned thousands
+                    of websites including Wikipedia; Egypt systematically filtered local news and human rights
+                    content (Baecker, 2019). Baecker (2019) argues that no society treats free speech as
+                    absolute, and every legal system carves out exceptions for obscenity, defamation, and
+                    incitement. The meaningful debate is not whether online speech should ever be restricted,
+                    but who gets to make that call, under what rules, and with what accountability.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="func/navbar.js"></script>
+</body>
+
+</html>

@@ -5,10 +5,14 @@
   const currentFile = window.location.pathname.split('/').pop() || 'index.html';
 
   const links = [
-    { href: 'index.html',             label: 'Home' },
-    { href: 'pages/guidelines.html',  label: 'Guidelines' },
-    { href: 'pages/meetings.html',    label: 'Meetings' },
-    { href: 'pages/references.html',  label: 'References' },
+    { href: 'index.html',                 label: 'Home' },
+    { href: 'pages/topic.html',           label: 'Topic' },
+    { href: 'pages/opportunities.html',   label: 'Opportunities' },
+    { href: 'pages/risks.html',           label: 'Risks' },
+    { href: 'pages/choices.html',         label: 'Choices' },
+    { href: 'pages/references.html',      label: 'References' },
+    { href: 'pages/team.html',            label: 'Team' },
+    { href: 'pages/meetings.html',        label: 'Meetings' },
   ];
 
   const items = links.map(({ href, label }) => {

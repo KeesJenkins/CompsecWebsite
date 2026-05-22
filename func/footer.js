@@ -15,9 +15,13 @@
           <h4>Navigation</h4>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="pages/guidelines.html">Guidelines</a></li>
-            <li><a href="pages/meetings.html">Meetings</a></li>
+            <li><a href="pages/topic.html">Topic</a></li>
+            <li><a href="pages/opportunities.html">Opportunities</a></li>
+            <li><a href="pages/risks.html">Risks</a></li>
+            <li><a href="pages/choices.html">Choices</a></li>
             <li><a href="pages/references.html">References</a></li>
+            <li><a href="pages/team.html">Team</a></li>
+            <li><a href="pages/meetings.html">Meetings</a></li>
           </ul>
         </nav>
       </div>
